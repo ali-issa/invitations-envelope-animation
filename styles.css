@@ -85,7 +85,7 @@ body {
 .paper {
   width: 90%;
   height: 90%;
-  background: #eeebe6;
+  background: var(--almostWhite);
   margin: 6px auto 0;
   transition: all 0.5s ease-out;
   position: absolute;
@@ -132,7 +132,7 @@ body {
 }
 
 .container {
-  border: solid 0.5px #7f8372;
+  border: solid 0.5px var(--textGreen);
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
